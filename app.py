@@ -38,7 +38,7 @@ start_button = st.button('Ejecutar')
 if start_button:
     st.write(f'Experimento con {number_of_trials} intentos en curso.')
     mean = toss_coin(number_of_trials)
-Ahora, usamos estas variables para mostrar el DataFrame después de cada ejecución de la aplicación:
+# Ahora, usamos estas variables para mostrar el DataFrame después de cada ejecución de la aplicación:
 
 import pandas as pd
 import scipy.stats
